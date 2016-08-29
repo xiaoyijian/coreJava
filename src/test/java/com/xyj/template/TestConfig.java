@@ -24,5 +24,6 @@ public class TestConfig {
     public void testEnv(){
         String test = env.getProperty("test");
         System.out.println(test);
+        System.out.println(env.getActiveProfiles());
     }
 }
